@@ -1,0 +1,28 @@
+.header {
+    background-color: #13131580;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.header__nav-link, .phone-link {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.header__nav-link:hover, .phone-link:hover {
+    font-size: 20px;
+    font-weight: 600;
+}
